@@ -1,0 +1,8 @@
+---
+ - hosts: localhost
+   become: yes
+   connection : local
+   tasks:
+     - name: ping
+       ping:
+~            
