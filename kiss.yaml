@@ -1,9 +1,9 @@
 ---
  - hosts: all
    become: yes
-   connection : local
+   connection: local
    remote_user: ec2-user
    tasks:
      - name: ping
        ping:
-~            
+           
