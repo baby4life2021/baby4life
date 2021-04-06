@@ -1,2 +1,6 @@
-54.165.79.159 private_key_file = /home/ec2-user/.ssh/id_rsa
+[all]
+54.165.79.159 
+
+[all:vars]
+private_key_file = /home/ec2-user/.ssh/id_rsa
                                                   
